@@ -7,13 +7,16 @@ export class TopNavigation extends Component {
       //<!-- Navigation -->
       <nav className="navbar navbar-inverse navbar-fixed-top" role="navigation">
           <div className="container">
-            {/*  <!-- Brand and toggle get grouped for better mobile display --> */}
+            {/*  <!-- Brand and toggle get grouped for better mobile display -->
             <div className="navbar-header">
                   <Link to="/" className="navbar-brand">Home</Link>
-              </div>
+              </div> */}
               {/* Collect the nav links, forms, and other content for toggling -->*/}
               <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul className="nav navbar-nav">
+                  <li>
+                      <Link to="/">Hom</Link>
+                  </li>
                       <li>
                           <Link to="/products">Products</Link>
                       </li>
